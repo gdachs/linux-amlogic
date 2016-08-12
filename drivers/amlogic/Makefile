@@ -52,13 +52,13 @@ obj-$(CONFIG_REGMAP_MMIO)	+= iomap/
 
 #obj-$(CONFIG_AMLOGIC_ION)	+= ion_dev/
 
-#obj-$(CONFIG_AML_DISPLAY)	+= display/
+obj-$(CONFIG_AML_DISPLAY)	+= display/
 
 #obj-$(CONFIG_AMLOGIC_LED)	+= led/
 
-#obj-$(CONFIG_AML_CANVAS)	+= canvas/
+obj-$(CONFIG_AML_CANVAS)	+= canvas/
 
-#obj-$(CONFIG_AM_VIDEO)		+= amports/
+obj-$(CONFIG_AM_VIDEO)		+= amports/
 
 #obj-$(CONFIG_DEINTERLACE)   += deinterlace/
 
@@ -68,7 +68,7 @@ obj-$(CONFIG_REGMAP_MMIO)	+= iomap/
 
 #obj-$(CONFIG_KEY_MANAGE)	+= key_manage/
 
-#obj-$(CONFIG_POST_PROCESS_MANAGER) += ppmgr/
+obj-$(CONFIG_POST_PROCESS_MANAGER) += ppmgr/
 
 #obj-$(CONFIG_AM_WIFI)		+= wifi/
 
@@ -119,3 +119,5 @@ obj-$(CONFIG_REGMAP_MMIO)	+= iomap/
 #obj-$(CONFIG_UMP)               += gpu/ump/
 
 #obj-$(CONFIG_MALI400)           += gpu/mali/
+
+obj-y				 += common/

@@ -39,11 +39,11 @@ source "drivers/amlogic/hdmi/Kconfig"
 
 #source "drivers/amlogic/ion_dev/Kconfig"
 
-#source "drivers/amlogic/display/Kconfig"
+source "drivers/amlogic/display/Kconfig"
 
 #source "drivers/amlogic/led/Kconfig"
 
-#source "drivers/amlogic/canvas/Kconfig"
+source "drivers/amlogic/canvas/Kconfig"
 
 #source "drivers/amlogic/clk/Kconfig"
 
@@ -51,7 +51,7 @@ source "drivers/amlogic/hdmi/Kconfig"
 
 #source "drivers/amlogic/securitykey/Kconfig"
 
-#source "drivers/amlogic/amports/Kconfig"
+source "drivers/amlogic/amports/Kconfig"
 
 #source "drivers/amlogic/deinterlace/Kconfig"
 
@@ -67,7 +67,7 @@ source "drivers/amlogic/hdmi/Kconfig"
 
 #source "drivers/amlogic/audiodsp/Kconfig"
 
-#source "drivers/amlogic/ppmgr/Kconfig"
+source "drivers/amlogic/ppmgr/Kconfig"
 
 #source "drivers/amlogic/wifi/Kconfig"
 
